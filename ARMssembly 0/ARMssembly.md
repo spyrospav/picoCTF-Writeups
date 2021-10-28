@@ -78,7 +78,7 @@ Although `func1` might seem a bit confusing at first sight, it actually calculat
 Result: 4112417903
 ```
 
-and the hex number if f51e846f. Finally, the flag is *picoCTF{f51e846f}*.
+and the hex number is f51e846f. Finally, the flag is *picoCTF{f51e846f}*.
 # Notes
 
 *W* registers in ARM assembly are for 32 bits and *X* registers are for 64 bits. Actually, *W1* register is the same as the last 32 bits of *X1* register.

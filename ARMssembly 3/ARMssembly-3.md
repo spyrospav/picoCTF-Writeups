@@ -83,7 +83,7 @@ main:
         .section        .note.GNU-stack,"",@progbits
 ```
 
-`main` functions gets an argument and passes it to `func1`. `func1` consists of a loop with condition `w0 != 0`. The loop starts with the following commands
+`main` function gets an argument and passes it to `func1`. `func1` consists of a loop with condition `w0 != 0`. The loop starts with the following commands
 ```
 and w0, w0, 1 # checks the last bit of w0
 cmp w0, 0
